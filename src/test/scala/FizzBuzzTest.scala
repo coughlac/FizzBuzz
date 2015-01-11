@@ -8,12 +8,12 @@ class FizzBuzzTest extends FunSuite{
         |2
         |Fizz
         |4
-        |5
+        |Buzz
         |Fizz
         |7
         |8
         |Fizz
-        |10
+        |Buzz
         |11
         |Fizz
         |13
@@ -23,7 +23,7 @@ class FizzBuzzTest extends FunSuite{
         |17
         |Fizz
         |19
-        |20
+        |Buzz
       """.stripMargin.trim
     assert(expectedResult === FizzBuzz.print(20))
   }
