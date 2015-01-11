@@ -2,7 +2,7 @@ import org.scalatest.FunSuite
 
 class FizzBuzzTest extends FunSuite{
 
-  test("print out numbers 1 to 20 with each multiple of 3 being Fizz, of 5 being Buzz and of both being FizzBuzz") {
+  test("print out numbers 1 to 30 with each multiple of 3 being Fizz, of 5 being Buzz and of both being FizzBuzz") {
     val expectedResult =
       """1
         |2
@@ -24,8 +24,18 @@ class FizzBuzzTest extends FunSuite{
         |Fizz
         |19
         |Buzz
+        |Fizz
+        |22
+        |23
+        |Fizz
+        |Buzz
+        |26
+        |Fizz
+        |28
+        |29
+        |FizzBuzz
       """.stripMargin.trim
-    assert(expectedResult === FizzBuzz.print(20))
+    assert(expectedResult === FizzBuzz.print(30))
   }
 
 }
