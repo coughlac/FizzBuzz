@@ -1,27 +1,27 @@
 import org.scalatest.FunSuite
 
-class FizzBuzzTest  extends FunSuite{
+class FizzBuzzTest extends FunSuite{
 
-  test("print out numbers 1 to 20") {
+  test("print out numbers 1 to 20 with each multiple of 3 being Fizz") {
     val expectedResult =
       """1
         |2
-        |3
+        |Fizz
         |4
         |5
-        |6
+        |Fizz
         |7
         |8
-        |9
+        |Fizz
         |10
         |11
-        |12
+        |Fizz
         |13
         |14
-        |15
+        |Fizz
         |16
         |17
-        |18
+        |Fizz
         |19
         |20
       """.stripMargin.trim
