@@ -2,8 +2,9 @@ name := "FizzBuzz"
 
 version := "1.0"
 
-scalaVersion := "2.11.4"
+scalaVersion := "2.13.6"
 
-libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.0" % "test"
-
+libraryDependencies ++= Seq(
+  "org.scalatest" %% "scalatest" % "3.0.8" % "test"
+)
     
